@@ -18,7 +18,7 @@ import PublicSector from "./pages/Industries/PublicSector";
 
 // Technology Pages
 import SAPS4HANA from "./pages/Technology/SAPS4HANA";
-import AIandML from "./pages/Technology/AIandML";
+// import AIandML from "./pages/Technology/";
 import IoTIntegration from "./pages/Technology/IoTIntegration";
 
 import Header from "./pages/Header";
@@ -57,7 +57,7 @@ function App() {
 
         {/* Technology */}
         <Route path="/technology/sap-s4-hana" element={<SAPS4HANA />} />
-        <Route path="/technology/ai-ml" element={<AIandML />} />
+        {/* <Route path="/technology/ai-ml" element={<AIandML />} /> */}
         <Route path="/technology/iot-integration" element={<IoTIntegration />} />
 
         <Route path="/jobs" element={<Jobs />} />
